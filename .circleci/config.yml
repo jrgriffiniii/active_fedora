@@ -45,7 +45,7 @@ workflows:
       - bundle_lint_test:
           ruby_version: "2.5.5"
           name: "ruby2-5-5"
-          solr_config_path: 'lib/generators/active_fedora/config/solr/templates/solr/config'
+          solr_config_path: 'lib/generators/active_fedora/config/solr/templates/solr/conf'
       - bundle_lint_test:
           ruby_version: "2.4.6"
           name: "ruby2-4-6"
